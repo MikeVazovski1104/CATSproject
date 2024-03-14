@@ -1,9 +1,9 @@
 from django.contrib import admin
 
-from .models import Guest, Pets, Achievements
+from .models import Guest, Cat, Achievements
 
 # Register your models here.
 admin.site.register(Guest)
-admin.site.register(Pets)
+admin.site.register(Cat)
 admin.site.register(Achievements)
 

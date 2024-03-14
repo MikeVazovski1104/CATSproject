@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from rest_framework import generics
 
-from .models import Guest, Pets
+from .models import Guest
 from .serializer import GuestSerializer
 
 

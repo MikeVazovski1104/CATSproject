@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Guest, Pets
+from .models import Guest
 
 
 class GuestSerializer(serializers.ModelSerializer):
